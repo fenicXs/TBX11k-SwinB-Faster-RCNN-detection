@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# MMDet / training outputs
+work_dirs/
+data/
+
+# Pretrained weights (download separately)
+pretrained/
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+.idea/
+*.swp
